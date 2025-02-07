@@ -14,7 +14,8 @@ export default function NewsFeedSection() {
 
       {
         posts.map((eachPost,index)=>(
-            <div className="space-y-2">
+          
+            <div key={index} className="space-y-2">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <img
