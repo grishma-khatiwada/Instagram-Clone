@@ -55,7 +55,7 @@ export default function NewsFeedSection() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
               perspiciatis saepe vitae.lorem8
             </p>
-            <hr />
+            <hr className="opacity-50" />
             </div>
             
 
