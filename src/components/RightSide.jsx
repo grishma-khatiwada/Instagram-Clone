@@ -2,16 +2,16 @@ import React from 'react'
 
 export default function RightSide() {
   return (
-    <div className='bg-gray-50 px-4'>
+    <div className='bg-gray-50 px-4 pt-10'>
 
-        <div className='flex items-center justify-between font-semibold opacity-80'>
+        <div className='mb-8 flex items-center justify-between font-semibold opacity-80'>
             <p>Suggested for you</p>
             <p className='text-blue-500 cursor-pointer'>See All</p>
         </div>
 
 
 
-<div className='space-y-4'>        
+<div className='space-y-6'>        
 {
     people.map((eachItem, index) =>(
         <div 

@@ -7,8 +7,8 @@ import MobileMenu from "./components/MobileMenu";
 export default function App() {
   return (
     <div>
- <div className="relative flex h-screen">
-      <div className="sticky top-0 h-screen w-3/12 lg:w-2/12 hidden sm:block border-r border-gray-300">
+ <div className="relative flex h-screen p-4">
+      <div className="sticky top-0 h-screen w-3/12 lg:w-2/12 hidden sm:block border-r border-gray-300 ">
         <LeftSide />
       </div>
 
@@ -23,7 +23,7 @@ export default function App() {
 
 
     </div>
-    <MobileMenu/>
+   
     </div>
    
 
