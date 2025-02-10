@@ -20,7 +20,7 @@ export default function LeftSide() {
       <img  className=" w-30 mb-8" src={logo} alt="" />
 
 
-      <div className=" flex flex-col justify-between h-[86vh]">
+      <div className=" flex flex-col justify-between h-[85vh]">
         <div className="space-y-2">
           {linkTop.map((eachItem, index) => (
             <NavLink
