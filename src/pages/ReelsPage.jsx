@@ -9,7 +9,11 @@ export default function ReelsPage() {
       {
         reels.map((eachItem,index)=>(
           <div key={index} className='relative'>
-          <video className='w-full' src="https://videos.pexels.com/video-files/30418809/13035228_360_640_30fps.mp4"></video>
+          <video className='w-full'
+          autoPlay ={true}
+          controls ={true}
+          muted = {true}
+           src="https://videos.pexels.com/video-files/30418809/13035228_360_640_30fps.mp4"></video>
    
           <div className=' p-4 absolute top-0 flex items-center justify-between w-full text-white ' >
            <div className='flex'>
