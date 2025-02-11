@@ -14,19 +14,14 @@ import NotifactitionsPage from "./pages/NotifactitionsPage.jsx";
 import LeftSide from "./components/LeftSide.jsx";
 import RightSide from "./components/RightSide.jsx";
 
-createRoot(document.getElementById("root")).render(
+
+export function Root() {
+
+  return(
+
   <StrictMode>
-    <BrowserRouter>
       <MobileHeader />
-      {/* <Routes> */}
-      {/* <Route path="/" element={<App />} />
-      <Route path="/profile" element={<ProfilePage/>} />
-      <Route path="/notification" element={<NotifactitionsPage/>} />
-      <Route path="/messages" element={<MessagePage/>} />
-      <Route path="/reels" element={<ReelsPage/>} />
-      <Route path="/explore" element={<ExplorePage/>} />
-      <Route path="/create" element={<CreatePage/>} /> */}
-      {/* </Routes> */}
+      {/* {} */}
 
       <div className="relative flex h-screen p-4">
         <div className="sticky top-0 h-screen w-3/12 lg:w-2/12 hidden sm:block border-r border-gray-300 ">
@@ -51,6 +46,14 @@ createRoot(document.getElementById("root")).render(
       </div>
 
       <MobileMenu />
-    </BrowserRouter>
   </StrictMode>
 );
+
+}
+createRoot(document.getElementById("root")).render(
+  <BrowserRouter>
+    <Root />
+  </BrowserRouter>
+);
+
+
